@@ -1,6 +1,6 @@
-package pt.ipp.isep.dei.examples.tdd.basic.ui;
+package pt.ipp.isep.dei.examples.basic.ui;
 
-import pt.ipp.isep.dei.examples.tdd.basic.domain.Calculator;
+import pt.ipp.isep.dei.examples.basic.domain.Calculator;
 
 public class Main {
 

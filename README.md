@@ -1,8 +1,8 @@
-# TDD Basic Example
+# Java/Maven Initial Solution Example
 
-This project shows a basic TDD example with some of the most common annotations.
+This project shows a basic example with some of the most common annotations.
 
-This project used Java and Maven.
+This project uses Java and Maven.
 
 We have to declare the maven-surefire-plugin in the pom.xml file and configure the dependencies of this plugin. 
 
@@ -59,7 +59,7 @@ mvn org.pitest:pitest-maven:mutationCoverage -DwithHistory
 ### Complete example
 
 ``` 
-mvn test jacoco:report org.pitest:pitest-maven:mutationCoverage -DhistoryInputFile=target/fasterPitMutationTesting-history.txt -DhistoryOutputFile=target/fasterPitMutationTesting-history.txt -Dsonar.pitest.mode=reuseReport -Dthreads=4 -DtimestampedReports=false
+mvn test jacoco:report org.pitest:pitest-maven:mutationCoverage -DwithHistory -Dsonar.pitest.mode=reuseReport -Dthreads=4 -DtimestampedReports=false
 ```
 ## Jacoco dependencies
 * https://github.com/pitest/pitest-junit5-plugin
