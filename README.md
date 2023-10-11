@@ -65,3 +65,6 @@ mvn test jacoco:report org.pitest:pitest-maven:mutationCoverage -DwithHistory -D
 * https://github.com/pitest/pitest-junit5-plugin
   - https://mvnrepository.com/artifact/org.pitest/pitest-junit5-plugin
     - required to work with JUnit5
+
+# Who do I talk to about this project? #
+Nuno Bettencourt (email: nmb at isep.ipp.pt)
